@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources xmlns="http://www.jboss.org/ironjacamar/schema">
+    <datasource jndi-name="java:/LavaFacilDS" pool-name="LavaFacilPool" enabled="true" use-java-context="true">
+        <connection-url>jdbc:postgresql://localhost:5432/lavafacil</connection-url>
+        <driver>postgresql</driver>
+        <security>
+            <user-name>postgres</user-name>
+            <password>postgres</password>
+        </security>
+    </datasource>
+</datasources> 
